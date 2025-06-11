@@ -6,7 +6,7 @@ body{
 }
 section{
     height: 345px;
-    background-color: tomato;
+    background-color: #ff851b;
 }
 section header{
     display: flex;
@@ -29,6 +29,11 @@ section header div .border{
     border-radius: 6px;
     padding: 6px;
     border-bottom: 4px solid black;
+}
+section header div .border:hover{
+    background-color: black;
+    color: white;
+    border: none;
 }
 section header div .border-none{
     text-decoration: none;
@@ -74,7 +79,20 @@ section header div .border-none span{
     color: black;
     border-bottom: 4px solid black;
 }
-main{
+#earn-button .LOGIN:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+div{
     text-align: center;
     margin-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main div{
+    background-color: #ff851b;
+    width: 24%;
 }
