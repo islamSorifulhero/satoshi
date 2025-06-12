@@ -89,10 +89,54 @@ div{
     margin-top: 10px;
 }
 .main{
+    width: 100%;
+    background-color: rgb(218, 214, 214);
     display: flex;
-    justify-content: space-around;
+    gap: 16px;
+    justify-content: center;
 }
 .main div{
     background-color: #ff851b;
-    width: 24%;
+    width: 28%;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.main div i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.document{
+    display: flex;
+    gap: 40px;
+    margin: 30px;
+    padding: 20px;
+}
+.document .Earners{
+    background-color: gray;
+    width: 50%;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+}
+.document .Advertisers{
+    background-color: #ff851b;
+    width: 50%;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+}
+.document ul{
+    font-size: 20px;
+    list-style-type: none;
+}
+.document .Earners ul li i{
+    color: #ff851b;
+}
+.document .Earners h1 i{
+    color: #ff851b;
+}
+.document .Advertisers h1 i{
+    color: white;
 }
