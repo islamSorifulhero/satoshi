@@ -140,3 +140,36 @@ div{
 .document .Advertisers h1 i{
     color: white;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff851b;
+}
+footer ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    margin-right: 60px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer div p{
+    margin-left: 60px;
+}
+footer div p a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+footer div ul .tab{
+    border: 1px solid;
+    border-top: none;
+    border-bottom: 5px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer div ul .tab:hover{
+    border: none;
+}
