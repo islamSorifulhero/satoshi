@@ -1,4 +1,5 @@
 body{
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -172,4 +173,21 @@ footer div ul .tab{
 }
 footer div ul .tab:hover{
     border: none;
+}
+
+.mycutie img{
+    border: 5px solid #ff851b;
+    display: inline;
+    margin: auto;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+/* fon device */
+@media screen and (max-width: 480px){
+    section header{
+        flex-direction: column;
+    }
 }
