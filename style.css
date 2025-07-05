@@ -175,6 +175,12 @@ footer div ul .tab:hover{
     border: none;
 }
 
+.paragraph p{
+    margin: 20px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
 .mycutie img{
     border: 5px solid #ff851b;
     display: inline;
@@ -182,6 +188,7 @@ footer div ul .tab:hover{
     width: 400px;
     justify-content: space-between;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 
